@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={leagueSpartan.className}>
+      <body
+        className={`${leagueSpartan.className} flex flex-col sm:flex-row bg-11`}
+      >
         <Sidebar />
         {children}
       </body>
